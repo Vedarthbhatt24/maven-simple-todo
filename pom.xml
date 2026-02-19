@@ -73,7 +73,7 @@
     </build>
 	<distributionManagement>
         <repository>
-            <id>maven-simple-todo</id>
+            <id>custom-maven-ga</id>
             <url>http://192.168.0.32:8081/repository/maven-simple-todo/</url>
         </repository>
      </distributionManagement>
