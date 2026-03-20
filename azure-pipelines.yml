@@ -9,7 +9,7 @@ trigger:
 pool:
   name: 'Default'
   demands:
-  -Agent.Name -equals 1R-35
+  - Agent.Name -equals 1R-35
 
 steps:
 - task: Maven@3
