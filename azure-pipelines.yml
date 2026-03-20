@@ -12,6 +12,11 @@ pool:
   - Agent.Name -equals vedarth_agent
 
 steps:
+- task: UseJavaVersion@1
+  inputs:
+    versionSpec: '11'
+    jdkArchitectureOption: 'x64'
+    jdkSourceOption: 'PreInstalled'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
